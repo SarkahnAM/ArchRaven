@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArchRaven Library</title>
+  <meta name="description" content="ArchRaven Library — an indie-first digital bookshelf.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="ArchRaven Library home">
+        <span class="brand-mark">AR</span>
+        <span>ArchRaven Library</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#subscribe">Subscribe</a>
+        <a href="#dev-log">Dev Log</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="raven-shape">✦</div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">ARCHRAVEN LIBRARY</p>
+          <h1>COMING<br><span>SOON</span></h1>
+          <p class="stay">STAY TUNED!</p>
+          <div class="ticker-clock" aria-label="Live ticking clock">
+            <span id="clock-time">00:00:00</span>
+            <span class="clock-dot"></span>
+            <span id="clock-date">LOADING</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro section">
+        <div class="section-kicker">ARCHRAVEN LIBRARY</div>
+        <div class="copy">
+          <h2>A smarter, indie-first mobile bookshelf.</h2>
+          <p>The “ArchRaven Library,” a smarter, indie-first mobile bookshelf in the palm of your hands. The ArchRaven Library focuses on indie-first publication to give the unheard a voice and the unseen a place to be found.</p>
+          <p>No gatekeeping due to store dependency. By design, it is a discovery tool for readers. No more long searches just to give up and retreat to your comfort read again and again.</p>
+          <p>ArchRaven Library offers a clean, smart way to organize and enjoy your E-books from the authors of the world, unknown and known, all in one place. To never be forgotten — just like the ArchRaven.</p>
+        </div>
+      </section>
+
+      <section id="subscribe" class="signup section">
+        <div>
+          <p class="eyebrow">COMING SOON TO YOUR FAVORITE DEVICE</p>
+          <h2>Be first through the gate.</h2>
+          <p>Join the list for development updates and launch news.</p>
+        </div>
+        <form id="signup-form" class="form">
+          <label>First name<input name="firstName" autocomplete="given-name" required></label>
+          <label>Last name<input name="lastName" autocomplete="family-name" required></label>
+          <label class="full">Email<input type="email" name="email" autocomplete="email" required></label>
+          <button type="submit">Submit</button>
+          <p id="form-message" class="form-message" role="status"></p>
+        </form>
+      </section>
+
+      <section id="dev-log" class="devlog section">
+        <div class="section-kicker">DEV LOG</div>
+        <div class="copy">
+          <p class="eyebrow">WELCOME</p>
+          <h2>Building the indie-first digital bookshelf.</h2>
+          <p>Thanks for stopping by! This is where you’ll find the latest updates, progress notes, and behind-the-scenes insights as we build the ArchRaven Library, your indie-first digital bookshelf.</p>
+          <p class="coming">COMING SOON · STAY TUNED</p>
+          <div class="goal">
+            <span class="goal-number">01</span>
+            <div><h3>OUR GOAL</h3><p>Our mission is simple: unlock stories that deserve to be heard.</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2025 ArchRaven. All rights reserved.</span>
+      <span>Independent recreation · No Wix dependencies</span>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
